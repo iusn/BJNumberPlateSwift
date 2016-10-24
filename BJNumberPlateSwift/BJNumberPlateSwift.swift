@@ -1,6 +1,6 @@
 //
-//  BJVehicleNumberPlateSwift.swift
-//  BJVehicleNumberPlateSwift
+//  BJNumberPlateSwift.swift
+//  BJNumberPlateSwift
 //
 //  Created by Sun on 15/10/2016.
 //  Copyright © 2016 Sun. All rights reserved.
