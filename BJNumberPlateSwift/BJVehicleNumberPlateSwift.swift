@@ -39,7 +39,7 @@ extension UIResponder{
     }
 }
 
-class BJVehicleNumberPlateSwift: UIInputView,UIInputViewAudioFeedback {
+class BJNumberPlateSwift: UIInputView,UIInputViewAudioFeedback {
     
     enum BJKeyboardStyle {
         case BJKeyboardStyleProvince
@@ -88,8 +88,6 @@ class BJVehicleNumberPlateSwift: UIInputView,UIInputViewAudioFeedback {
         changeBtn?.style = .BJKeyboardButtonStyleChange
         changeBtn = self.setButtonStyle(button: changeBtn!)
         self.addSubview(changeBtn!)
-        
-        
         
         deleteBtn = BJKeyboardButton(type:UIButtonType.custom)
         deleteBtn?.setImage(UIImage(named:"DeleteEmoticonBtn_ios7@2x.png"), for: .normal)
