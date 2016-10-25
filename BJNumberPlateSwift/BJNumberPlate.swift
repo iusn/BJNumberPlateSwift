@@ -39,7 +39,7 @@ extension UIResponder{
     }
 }
 
-class BJNumberPlateSwift: UIInputView,UIInputViewAudioFeedback {
+class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
     
     enum BJKeyboardStyle {
         case BJKeyboardStyleProvince
