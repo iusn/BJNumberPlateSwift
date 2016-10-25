@@ -39,7 +39,7 @@ extension UIResponder{
     }
 }
 
-class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
+public class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
     
     enum BJKeyboardStyle {
         case BJKeyboardStyleProvince
@@ -130,12 +130,12 @@ class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
         self.sizeToFit()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews();
         
         let bounds = self.bounds;
@@ -152,7 +152,7 @@ class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
         }
     }
     
-    override func sizeThatFits(_ size: CGSize) -> CGSize {
+    override public func sizeThatFits(_ size: CGSize) -> CGSize {
         
         var tempSize = CGSize()
         tempSize.width = UIScreen.main.bounds.width
@@ -298,7 +298,7 @@ class BJNumberPlate: UIInputView,UIInputViewAudioFeedback {
         UIDevice.current.playInputClick()
     }
     
-     var enableInputClicksWhenVisible: Bool {
+   public  var enableInputClicksWhenVisible: Bool {
         return true
     }
     
