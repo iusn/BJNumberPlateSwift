@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BJNumberPlateSwift"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "BJNumberPlateSwift Support Swift 3.0."
   s.description  = <<-DESC
                   BJNumberPlateSwift is a custom number plate keyboard, it's easy to use. Support Swift 3.0
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.requires_arc = true
   s.source       = { :git => "https://github.com/iusn/BJNumberPlateSwift.git", :tag => "#{s.version}" }
-  s.source_files  = "BJNumberPlateSwift/*"
-  s.framework  = "UIKit"
-
+  s.source_files  = "BJNumberPlateSwift/*.swift"
+  s.framework  = 'UIKit','Foundation'
+  s.module_name = 'BJNumberPlateSwift'
 end
