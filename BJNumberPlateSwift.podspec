@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BJNumberPlateSwift"
-  s.version      = "1.0.7"
+  s.version      = "1.0.9"
   s.summary      = "BJNumberPlateSwift Support Swift 3.0."
   s.description  = <<-DESC
                   BJNumberPlateSwift is a custom number plate keyboard, it's easy to use. Support Swift 3.0
