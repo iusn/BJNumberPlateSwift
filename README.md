@@ -16,7 +16,7 @@ To integrate BJNumberPlate into your Xcode project using CocoaPods, specify it i
 
 ###Swift
 ```ruby
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 target 'TargetName' do
 
